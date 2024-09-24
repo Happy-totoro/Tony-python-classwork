@@ -1,4 +1,4 @@
-def multiply(a: int, b: int) -> None: #parameters
+def multiply(a: int, b: int) -> None: #parameters -local variables in the subroutine
     print("the product is:", a*b)
 #end procedure
 multiply(2, 5) #arguments
@@ -15,3 +15,8 @@ m = 8
 n = 10
 proc1(m, n)
 print(m, n)
+
+#passing by arguments: 
+#passing by refrences:
+
+#refrence refers to the memory address of the variable that has been assigned to it.
