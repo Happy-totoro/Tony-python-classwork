@@ -6,7 +6,7 @@ def iterTotal(arr) ->int:
     return sum
 print(iterTotal(numbers))
 
-def recurTotal(arr):
+def recurTotal(arr):  #recursion calls itself untils the base case is happened(the condition needed to be stopped)
     if len(arr) == 0:
         return 0
     else:

@@ -10,8 +10,12 @@ def fib_iteration(n):
         return n
     a = 0
     b = 1
+    #temp = 0
     for i in range(2, n+1):
         a, b = b, a + b
+        #temp = a
+        #a = b
+        #b = temp+b
     return b
 
 startTime1 = time.time()
